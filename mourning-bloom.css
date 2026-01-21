@@ -1,0 +1,116 @@
+/* ===============================
+   MOURNING BLOOM — Brown / Natural
+   Site-wide Wolvden CSS
+   =============================== */
+
+:root{
+  --bg-overlay: rgba(10,8,6,0.55);
+
+  --paper: rgba(225,215,204,0.92);
+  --paper2: rgba(214,202,190,0.92);
+
+  --wood: #7a5f43;
+  --bark: #3a2c22;
+  --sage: #4f6a55;
+
+  --shadow: rgba(0,0,0,0.22);
+}
+
+/* WEBSITE BACKGROUND */
+html, body{
+  background-color: #1a1613 !important;
+}
+
+body{
+  background-image:
+    linear-gradient(var(--bg-overlay), var(--bg-overlay)),
+    url("https://i.imgur.com/vd5ZRWt.jpeg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+}
+
+/* MAIN PANELS + SIDEBARS */
+#content, #main, .container, .content, .panel, .box, .well,
+#denContent, #profileContent,
+#sidebar, .sidebar, #left, #right,
+#sidebar .box, .sidebar .box, #sidebar .panel, .sidebar .panel{
+  background: var(--paper) !important;
+  border: 2px solid var(--wood) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 8px 18px var(--shadow) !important;
+  color: var(--bark) !important;
+}
+
+/* HEADERS */
+h1, h2, h3, h4, .title, .header, .boxTitle{
+  color: var(--bark) !important;
+  text-shadow: none !important;
+}
+
+/* TOP NAV BAR */
+.navbar, .navbar-inverse, #header, #nav, .topbar{
+  background: rgba(58,44,34,0.92) !important;
+  border-bottom: 2px solid var(--wood) !important;
+}
+
+.navbar a, #nav a, .topbar a{
+  color: #f2eadf !important;
+}
+
+.navbar a:hover, #nav a:hover, .topbar a:hover{
+  color: #ffffff !important;
+}
+
+/* LINKS */
+a{
+  color: var(--sage) !important;
+}
+
+a:hover{
+  color: #2f4a37 !important;
+}
+
+/* BUTTONS */
+.btn, button, input[type="submit"]{
+  background: var(--sage) !important;
+  border: 2px solid var(--wood) !important;
+  color: #f7f2ea !important;
+  border-radius: 10px !important;
+}
+
+.btn:hover{
+  filter: brightness(1.06);
+}
+
+/* TABLES */
+table, .table{
+  background: rgba(255,255,255,0.35) !important;
+  border: 2px solid var(--wood) !important;
+}
+
+th{
+  background: rgba(58,44,34,0.88) !important;
+  color: #f2eadf !important;
+  border-bottom: 2px solid var(--wood) !important;
+}
+
+tr:nth-child(even){
+  background: rgba(122,95,67,0.10) !important;
+}
+
+/* INPUTS */
+input, select, textarea{
+  background: rgba(255,255,255,0.55) !important;
+  border: 2px solid var(--wood) !important;
+  border-radius: 10px !important;
+  color: var(--bark) !important;
+}
+
+/* ALERT BARS */
+.alert, .alert-danger, .alert-warning{
+  background: rgba(122,95,67,0.18) !important;
+  border: 2px solid var(--wood) !important;
+  color: var(--bark) !important;
+}
