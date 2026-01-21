@@ -24,11 +24,11 @@ html, body{
 body{
   background-image:
     linear-gradient(var(--bg-overlay), var(--bg-overlay)),
-    url("https://i.imgur.com/LydIF4L.jpeg") !important;
+    url("https://i.imgur.com/XlF7wEo.jpeg?1") !important;
   background-size: auto !important;
   background-position: center !important;
   background-attachment: scroll !important;
-  background-repeat: no-repeat !important;
+  background-repeat: repeat !important;
 }
 
 /* MAIN PANELS + SIDEBARS */
