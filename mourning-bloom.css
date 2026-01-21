@@ -24,10 +24,10 @@ html, body{
 body{
   background-image:
     linear-gradient(var(--bg-overlay), var(--bg-overlay)),
-    url("https://i.imgur.com/vd5ZRWt.jpeg") !important;
+    url("https://i.imgur.com/LydIF4L.jpeg") !important;
   background-size: cover !important;
   background-position: center !important;
-  background-attachment: fixed !important;
+  background-attachment: scroll !important;
   background-repeat: no-repeat !important;
 }
 
